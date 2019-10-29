@@ -48,9 +48,9 @@ def total_gross(source)
   # return the total
   grand_total = 0
   total_index = 0
-  total_length = list_of_directors(source)
+  total_length = 0
   
-  while total_index < total_length.length done
+  while total_index < list_of_directors.size do
     grand_total += directors_totals(source)
   end
   grand_total  
