@@ -50,7 +50,7 @@ def total_gross(source)
   total_index = 0
   
   while total_index < list_of_directors.size done
-    grand_total += directors_totals()
+    grand_total += directors_totals
   end
   grand_total  
 end
