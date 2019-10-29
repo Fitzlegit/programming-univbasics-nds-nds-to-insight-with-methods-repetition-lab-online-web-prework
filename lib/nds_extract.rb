@@ -10,7 +10,6 @@ def directors_totals(source)
     director_index += 1
   end
   result
-  p result
 end
 
 def gross_for_director(d)
@@ -61,7 +60,7 @@ def total_gross(source)
     
     index += 1
   end
-  p grand_total  
+  grand_total  
 end
 
 
