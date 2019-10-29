@@ -57,7 +57,7 @@ def total_gross(source)
     
     directors = directors[index]
     
-    grand_total += directors_totals(directors[index])
+    grand_total += directors_hash[:directors]
     
     index += 1
   end
